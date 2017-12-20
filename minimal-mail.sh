@@ -57,9 +57,7 @@ return mail('"$sTo"', '"$sSubject"', \$buffer, '"$hFrom"' );
 #date | echo "php -r \"$php_code\""
 #date | php -r "$php_code"
 
-
 php -r "$php_code"
-rc-$?
 rc=$?
 
 exit $rc
